@@ -2,153 +2,76 @@
 # yarn lockfile v1
 
 
-"@metarhia/common@^2.1.0":
+concolor@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/concolor/-/concolor-1.1.0.tgz#2f775068f2dba9e216101e75845add6bedf1a1bf"
+  integrity sha512-+3Fv9sVckhuzfksFU3e0lONmWKiL+Z88/R01KpAIqW2gVsmL8Ojw/KhkVcyAEeQeVBZcbb9zoDFbVcfVj4Pg9A==
+
+impress@^2.6.10:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/impress/-/impress-2.6.10.tgz#ebe2c79bcb576f7e9838c7ed9de8f11458f4d080"
+  integrity sha512-fR4JdFUlD0ot4mEIvXq5fz5GFd6apJQMQFcNexH/P/msSh4xiRGdcHRYbNaeiXkFjrC1wmwYLP3017dQHMIlIg==
+  dependencies:
+    metacom "^2.0.7"
+    metaconfiguration "^2.1.6"
+    metalog "^3.1.8"
+    metaschema "^1.4.1"
+    metautil "^3.5.20"
+    metavm "^1.1.0"
+    metawatch "^1.0.5"
+
+metacom@^2.0.7:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/metacom/-/metacom-2.0.8.tgz#1274d0a284e66e59295ec7dad1cc487de0025936"
+  integrity sha512-3PWBBsF+BkFraGNldVdkcgOKH82afaAL/xulfpHICO38gS9seI26jCbcfsOdrjgpKfwlXY3vM5f7xP+zqhs8YA==
+  dependencies:
+    metautil "^3.5.20"
+    ws "^8.6.0"
+
+metaconfiguration@^2.1.6:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@metarhia/common/-/common-2.2.0.tgz#48142af9a0fd9caf719cbf2612641abae9bfaedc"
-  integrity sha512-yAq1FPk2ayLAlj3QGOCSjpN5yWYLD3zLtJWkBRjQUlastAlrLzEMzTmbjLCGzz+lwZSwvSNsGHBsO0C42IO8CQ==
-
-"@metarhia/config@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@metarhia/config/-/config-1.1.5.tgz#a24a0c921a34bb1f98dc1d8ed16d9559b2d9b40f"
-  integrity sha512-gO4D8X2ALodQV/TuQcNWoZ8PqQoqKXn9toHWTsCq4sfCDnaXv+Rs5FFuM8giBm3n0PNCAahw7mQSmAzmT6bhLw==
-
-buffer-writer@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/buffer-writer/-/buffer-writer-2.0.0.tgz#ce7eb81a38f7829db09c873f2fbb792c0c98ec04"
-  integrity sha512-a7ZpuTZU1TRtnwyCNW3I5dc0wWNC3VR9S++Ewyk2HHZdrO3CQJqSpd+95Us590V6AL7JqUAH2IwZ/398PmNFgw==
-
-concolor@^0.1.14:
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/concolor/-/concolor-0.1.15.tgz#d86a3642ccd9a820cc7ac9121b60bdfc527dc109"
-  integrity sha512-p5R4K7KiwmmN0scBS+GU2aAV3QRs8DUlGwSirR1LJqxxKcpTI+KU8jpGcdCpQw8HGf2VlNsSzwVxh7Evno310A==
-
-impress@^2.0.0-alpha.9:
-  version "2.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/impress/-/impress-2.0.0-alpha.9.tgz#7c397a0ab81470e30948fc27ea599a47acdea1ec"
-  integrity sha512-pfF8tfgs0plRjFWa+XqChZ8cW0Ac65/GuC9oQOqk312tutvgWvfMrGeAtJ9T4/0cvcfZH/fEjti8q8Isykl+Kw==
+  resolved "https://registry.yarnpkg.com/metaconfiguration/-/metaconfiguration-2.2.0.tgz#d63c88ee09b5b6c7a74e08c2701c0d1746073fe7"
+  integrity sha512-PummHfbQo1G6TW1LD7z82htm9GnWgYjDNdcGduYn7E6OUtijb8ron4z3nvJvTN6mDcehuvpgROTbjztOEKf/NQ==
   dependencies:
-    "@metarhia/common" "^2.1.0"
-    "@metarhia/config" "^1.1.5"
-    metalog "^2.2.0"
-    pg "^8.1.1"
-    ws "^7.3.0"
+    metavm "^1.4.0"
 
-metalog@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/metalog/-/metalog-2.2.0.tgz#51ecdb784229a0bba745f8b3b79cb547e1148b85"
-  integrity sha512-NO9wgXRX2Y5/vRO0brOwzIl6xKNERi/BAzYfDMCoGzjBpbU0fpNoYHFfRi8BCZGAioTyN+ngVyNIl+G2Tkq9ng==
+metalog@^3.1.8:
+  version "3.1.14"
+  resolved "https://registry.yarnpkg.com/metalog/-/metalog-3.1.14.tgz#08665dde21d25143282c638b8ba56b778262ab5e"
+  integrity sha512-lhC08NIa77JWXeOZxy06OwgacQr2nCX0Cy2TDoxFRjaAK3DHTNG9ubh17iWTsz1yvt1F7pTLlQ57ZCponOfKBQ==
   dependencies:
-    "@metarhia/common" "^2.1.0"
-    concolor "^0.1.14"
-    metastreams "^0.1.2"
+    concolor "^1.1.0"
+    metautil "^5.0.0"
 
-metastreams@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/metastreams/-/metastreams-0.1.2.tgz#3ca847557460855475a5cb09e170a65d537932ed"
-  integrity sha512-6wnujNYQyCuAQHimJWBDP59feTwlY2D1P8kf2AONC8k6oQxve3EXCTiL4E87oSWoyoIHMWcPXtOT4BZdVyAbDQ==
-
-packet-reader@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/packet-reader/-/packet-reader-1.0.0.tgz#9238e5480dedabacfe1fe3f2771063f164157d74"
-  integrity sha512-HAKu/fG3HpHFO0AA8WE8q2g+gBJaZ9MG7fcKk+IJPLTGAD6Psw4443l+9DGRbOIh3/aXr7Phy0TjilYivJo5XQ==
-
-pg-connection-string@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.3.0.tgz#c13fcb84c298d0bfa9ba12b40dd6c23d946f55d6"
-  integrity sha512-ukMTJXLI7/hZIwTW7hGMZJ0Lj0S2XQBCJ4Shv4y1zgQ/vqVea+FLhzywvPj0ujSuofu+yA4MYHGZPTsgjBgJ+w==
-
-pg-int8@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/pg-int8/-/pg-int8-1.0.1.tgz#943bd463bf5b71b4170115f80f8efc9a0c0eb78c"
-  integrity sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==
-
-pg-pool@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/pg-pool/-/pg-pool-3.2.1.tgz#5f4afc0f58063659aeefa952d36af49fa28b30e0"
-  integrity sha512-BQDPWUeKenVrMMDN9opfns/kZo4lxmSWhIqo+cSAF7+lfi9ZclQbr9vfnlNaPr8wYF3UYjm5X0yPAhbcgqNOdA==
-
-pg-protocol@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/pg-protocol/-/pg-protocol-1.2.5.tgz#28a1492cde11646ff2d2d06bdee42a3ba05f126c"
-  integrity sha512-1uYCckkuTfzz/FCefvavRywkowa6M5FohNMF5OjKrqo9PSR8gYc8poVmwwYQaBxhmQdBjhtP514eXy9/Us2xKg==
-
-pg-types@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/pg-types/-/pg-types-2.2.0.tgz#2d0250d636454f7cfa3b6ae0382fdfa8063254a3"
-  integrity sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==
+metaschema@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/metaschema/-/metaschema-1.4.1.tgz#7bff3668f6955d2c5317f1c2f6aebe04cef74f8a"
+  integrity sha512-8yLabUbaIv742y7oJ4JVUit/vqCk+Qm0m9wQ9s6lyDqSUvpQIZEyWvNf3W9go7imEXsXAH+rcZVfj00omr3cKg==
   dependencies:
-    pg-int8 "1.0.1"
-    postgres-array "~2.0.0"
-    postgres-bytea "~1.0.0"
-    postgres-date "~1.0.4"
-    postgres-interval "^1.1.0"
+    metautil "^3.5.19"
+    metavm "^1.1.0"
 
-pg@^8.1.1:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/pg/-/pg-8.3.0.tgz#941383300d38eef51ecb88a0188cec441ab64d81"
-  integrity sha512-jQPKWHWxbI09s/Z9aUvoTbvGgoj98AU7FDCcQ7kdejupn/TcNpx56v2gaOTzXkzOajmOEJEdi9eTh9cA2RVAjQ==
-  dependencies:
-    buffer-writer "2.0.0"
-    packet-reader "1.0.0"
-    pg-connection-string "^2.3.0"
-    pg-pool "^3.2.1"
-    pg-protocol "^1.2.5"
-    pg-types "^2.1.0"
-    pgpass "1.x"
-    semver "4.3.2"
+metautil@^3.5.19, metautil@^3.5.20:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/metautil/-/metautil-3.15.0.tgz#0eef1c0623479eb39fa9771fe544f2712ed7360a"
+  integrity sha512-kGG920X8R10X6He2VKPRQFtG45DcDCSYgZehUFoqES52Tv88VALJm6EplZGwDRK7IiBDWsWDeS8d2OcW6bVXeg==
 
-pgpass@1.x:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/pgpass/-/pgpass-1.0.2.tgz#2a7bb41b6065b67907e91da1b07c1847c877b306"
-  integrity sha1-Knu0G2BltnkH6R2hsHwYR8h3swY=
-  dependencies:
-    split "^1.0.0"
+metautil@^5.0.0:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/metautil/-/metautil-5.2.2.tgz#688b15a05f63ea27b2d01db7381e10a1ba575099"
+  integrity sha512-P+ulhESgwM+nfb4zmz/VVEo6M0LwrUiJPJKHEEfGasUuxPMtVBd3tX2RKGhxUmoQPI9SB8FcWcz+DCpn4sGBmQ==
 
-postgres-array@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/postgres-array/-/postgres-array-2.0.0.tgz#48f8fce054fbc69671999329b8834b772652d82e"
-  integrity sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==
+metavm@^1.1.0, metavm@^1.4.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/metavm/-/metavm-1.4.1.tgz#f02c5d1f0cfdc5f6f3c17b4f1f7d5e1be8455a74"
+  integrity sha512-LmJv6j8gjAQkEL5elIPa3Hlv1a4jY1IPOOyidDzTwmO1ZL+mCSJjHvmzMtbDyzZPi5CW929kmBRJttvBFI4B+w==
 
-postgres-bytea@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/postgres-bytea/-/postgres-bytea-1.0.0.tgz#027b533c0aa890e26d172d47cf9ccecc521acd35"
-  integrity sha1-AntTPAqokOJtFy1Hz5zOzFIazTU=
+metawatch@^1.0.5:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/metawatch/-/metawatch-1.2.1.tgz#7e5333df4ffc853e3a484055ae0941dd05337c0e"
+  integrity sha512-jYkH6ksioc0oVMuy7bZMYfaxe1KzMSNFUBn3wCDXDHeXWO2GwQ0mk2gAto9o5jZj/5dPuh+6jFl7ks/yPO0wEQ==
 
-postgres-date@~1.0.4:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/postgres-date/-/postgres-date-1.0.6.tgz#4925e8085b30c2ba1a06ac91b9a3473954a2ce2d"
-  integrity sha512-o2a4gxeFcox+CgB3Ig/kNHBP23PiEXHCXx7pcIIsvzoNz4qv+lKTyiSkjOXIMNUl12MO/mOYl2K6wR9X5K6Plg==
-
-postgres-interval@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/postgres-interval/-/postgres-interval-1.2.0.tgz#b460c82cb1587507788819a06aa0fffdb3544695"
-  integrity sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==
-  dependencies:
-    xtend "^4.0.0"
-
-semver@4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.2.tgz#c7a07158a80bedd052355b770d82d6640f803be7"
-  integrity sha1-x6BxWKgL7dBSNVt3DYLWZA+AO+c=
-
-split@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/split/-/split-1.0.1.tgz#605bd9be303aa59fb35f9229fbea0ddec9ea07d9"
-  integrity sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==
-  dependencies:
-    through "2"
-
-through@2:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-  integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
-
-ws@^7.3.0:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
-  integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
-
-xtend@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
-  integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+ws@^8.6.0:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
